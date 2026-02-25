@@ -54,9 +54,9 @@ Preprocessing included computing daily returns, aligning stock and market series
 - Scatter plots of stock returns against market returns  
 - Estimation of CAPM parameters via OLS regression:
 
-\[
+$\[
 R_i = \alpha_i + \beta_i R_M + \varepsilon_i
-\]
+\]$
 
 - Statistical significance testing of alpha and beta  
 - Ranking stocks by estimated beta  
