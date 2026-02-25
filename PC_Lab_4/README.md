@@ -58,9 +58,9 @@ The dataset combines price and volume information to construct predictive signal
 - Ridge regression with regularization  
 - Out-of-sample performance evaluation using:
 
-\[
+$$
 R_{OOS} = 1 - \frac{\sum (r_{t} - \hat{r}_{t})^2}{\sum r_{t}^2}
-\]
+$$
 
 - Alternative performance metrics: MSE, sign accuracy, R²  
 - Extension to non-linear models (e.g., Neural Networks or Tree-based methods)  
