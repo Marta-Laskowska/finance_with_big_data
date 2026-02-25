@@ -69,23 +69,23 @@ Campaigns were classified by sentiment (positive/negative) and other attributes 
 - Estimation of CAPM (and extended factor model) parameters over rolling windows  
 - Event-study methodology:
 
-  1. Estimate expected return using CAPM:
-     
-     $$
-     r_{i,t} = \alpha_i + \beta_i (r_{m,t} - r_{f,t}) + \varepsilon_{i,t}
-     $$
+1. Estimate expected return using CAPM:
 
-  2. Compute abnormal returns:
-     
-     $$
-     AR_{i,t} = r_{i,t} - \hat{r}_{i,t}
-     $$
+$$
+r_{i,t} = \alpha_i + \beta_i (r_{m,t} - r_{f,t}) + \varepsilon_{i,t}
+$$
 
-  3. Compute cumulative abnormal returns (CAR):
-     
-     $$
-     CAR_{i} = \sum_{t \in [t_s - 10, t_s + 10]} AR_{i,t}
-     $$
+2. Compute abnormal returns:
+
+$$
+AR_{i,t} = r_{i,t} - \hat{r}_{i,t}
+$$
+
+3. Compute cumulative abnormal returns (CAR):
+
+$$
+CAR_{i} = \sum_{t \in [t_s - 10, t_s + 10]} AR_{i,t}
+$$
 
 - Merging campaign dates with financial return data  
 - Statistical testing of CARs across event types  

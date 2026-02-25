@@ -123,12 +123,7 @@ Demographic quintiles were constructed for:
 We estimate models of the form:
 
 $$
-\log(\text{Complaints}_{i,z,t}) = \beta_0 
-+ \text{Demographic Quintiles}_{z}
-+ \text{FinTech}_i
-+ \text{Interactions}
-+ \text{Fixed Effects}
-+ \varepsilon_{i,z,t}
+\log(\text{Complaints}_{i,z,t}) = \beta_0 + \text{Demographic Quintiles}_{z} + \text{FinTech}_i + \text{Interactions} + \text{Fixed Effects} + \varepsilon_{i,z,t}
 $$
 
 Baseline group:
@@ -180,10 +175,7 @@ Most variables had VIF < 10.
 To test whether AI adoption changed complaint dynamics, we implement:
 
 $$
-\log(\text{Complaints}) = \beta_0 
-+ FE_{\text{Month}} 
-+ FE_{\text{Firm}} 
-+ \beta_1(\text{FinTech} \times \text{Post})
+\log(\text{Complaints}) = \beta_0 + FE_{\text{Month}} + FE_{\text{Firm}} + \beta_1(\text{FinTech} \times \text{Post})
 $$
 
 Findings:
